@@ -1,4 +1,6 @@
 [![Build Status](https://dev.azure.com/MohamedMosaddeq/Service365m/_apis/build/status/mosamoh.pipelines-dotnet-core?branchName=master)](https://dev.azure.com/MohamedMosaddeq/Service365m/_build/latest?definitionId=1&branchName=master)
+
+Mosaddeq sidi mohammed is playing with azure piplines
 # Sample ASP.NET Core application for Azure Pipelines docs
 
 For information on how to set up a pipeline for this repository, see [Create your first pipeline](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azure-devops).
