@@ -17,3 +17,11 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'Azure subscription 1(c310b231-a9f6-488e-8289-06c3fe663a2e)'
+    appType: 'webAppLinux'
+    appName: 's365-appName'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
