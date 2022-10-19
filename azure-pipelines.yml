@@ -23,5 +23,5 @@ steps:
   inputs:
     azureSubscription: 'Azure subscription 1(c310b231-a9f6-488e-8289-06c3fe663a2e)'
     appType: 'webAppLinux'
-    appName: 's365-appName'
+    appName: 'service365-core'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
